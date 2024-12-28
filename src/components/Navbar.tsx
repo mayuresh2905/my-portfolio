@@ -17,9 +17,7 @@ const Navbar = () => {
         setNav(!nav);
     }
 
-    const closeNav = () => {
-        setNav(false);
-    }
+
 
     const menuVariants = {
         open: {
