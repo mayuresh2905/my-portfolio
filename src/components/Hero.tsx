@@ -15,8 +15,8 @@ const Hero = () => {
         <div className="absolute rounded-[50%] w-[3000px] h-[1300px] top-[550px] left-[50%] -translate-x-1/2 bg-[radial-gradient(closest-side,#000_80%,#2B1942)]"></div>
         <div className='relative'>
             <div className='text-8xl font-bold text-center'>
-                <h1 className='text-[#98B4CE]'>Hi, I am</h1>
-                <h1 className='text-[#E48A57]'>Mayuresh Prabhu</h1>
+                <h1 className='text-[#98B4CE]'> Merging AI Insights with</h1>
+                <h1 className='text-[#E48A57]'>Full-Stack Innovation</h1>
             </div>
             <motion.div
              className='hidden md:block absolute left-[280px] top-[170px]'
@@ -48,7 +48,7 @@ const Hero = () => {
             </motion.div>
         
         <p className="text-center text-xl max-w-[500px] mx-auto mt-8 text-white/80">
-         I am a MERN stack developer and Data science enthusiast transforming concepts into seamless user experiences
+        Hi! I&apos;m Mayuresh, a MERN stack developer and Data science enthusiast based in India
         </p>
         <Image 
          src={profilepic}

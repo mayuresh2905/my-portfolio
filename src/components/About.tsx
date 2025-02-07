@@ -53,7 +53,9 @@ const About = () => {
                 <Image src={finance} alt="book" className='w-auto h-[130px]'/>
                 <div className="flex flex-col mt-4">
                     <h2 className="text-2xl font-bold text-white/80">Technical Skills</h2>
-                    <p className="text-lg text-white/70 mt-2">As a Full Stack Web Developer, I specialize in React Js, Next Js and Tailwind CSS</p>
+                    <p className="text-lg text-white/70 mt-2">
+                      As a Data Scientist with expertise in web development, I specialize in Python & Javascript programming, leveraging libraries & frameworks like Pandas,Next.js, Matplotlib, Flask, and Scikit-Learn.
+                    </p>
                 </div>
               </div>
             </div>

@@ -2,34 +2,38 @@
 import React from 'react';
 import Image from 'next/image';
 import { motion } from 'framer-motion';
-import project1 from "../assets/proj1.jpg";
+import project1 from "../assets/imginify.jpeg";
+import project2 from "../assets/Yoom.jpeg";
+import project3 from "../assets/RecruitPro.jpeg";
+
+
 
 const projects = [
     {
-        title: "Shoppy: Ecommerce Web Application",
-        desc: "He was an expert but not in a discipline that anyone could fully appreciate. He knew how to hold the cone just right so that the soft server ice-cream fell into it at the precise angle to form a perfect cone each and every time. It had taken years to perfect and he could now do it without even putting any thought behind it. Nobody seemed to fully understand the beauty of this accomplishment except for the new worker who watched in amazement.",
-        devstack: "MongoDB, Express, React, Node.js",
-        link: "#",
-        git: "#",
+        title: "Imaginify: AI Based SAAS For Image Editing",
+        desc: "Built a secure system for user authentication, profile management, and credit-based access to AI-driven image tools.Developed advanced image processing features like restoration, recolouring, object removal, and generative fill.Designed a responsive UI with advanced search, community showcases, and Stripe integration for credit purchases.",
+        devstack: "Next.js, Tailwind, TypeScript, Cloudinary AI, Stripe, Clerk,MongoDB",
+        link: "https://imaginify-delta-cyan.vercel.app",
+        git: "https://github.com/mayuresh2905/imaginify",
         src: project1
 
     },
     {
-        title: "Shoppy: Ecommerce Web Application",
-        desc: "He was an expert but not in a discipline that anyone could fully appreciate. He knew how to hold the cone just right so that the soft server ice-cream fell into it at the precise angle to form a perfect cone each and every time. It had taken years to perfect and he could now do it without even putting any thought behind it. Nobody seemed to fully understand the beauty of this accomplishment except for the new worker who watched in amazement.",
-        devstack: "MongoDB, Express, React, Node.js",
-        link: "#",
-        git: "#",
-        src: project1
+        title: "Yoom: Video Conferencing Web Application",
+        desc: "Built with Next.js and TypeScript, offering secure authentication via Clerk and real-time meeting functionalities powered by getStream. Users can create, join, and manage meetings with features like recording, screen sharing, participant controls, and scheduling future sessions. Designed with a responsive UI using Tailwind CSS and shadcn, it ensures a seamless experience while maintaining security, privacy, and scalability.",
+        devstack: "Next.js, Tailwind, TypeScript, getStream, Stripe, Clerk",
+        link: "https://yoom-qt8u.vercel.app/",
+        git: "https://github.com/mayuresh2905/yoom",
+        src: project2
 
     },
     {
-        title: "Shoppy: Ecommerce Web Application",
-        desc: "He was an expert but not in a discipline that anyone could fully appreciate. He knew how to hold the cone just right so that the soft server ice-cream fell into it at the precise angle to form a perfect cone each and every time. It had taken years to perfect and he could now do it without even putting any thought behind it. Nobody seemed to fully understand the beauty of this accomplishment except for the new worker who watched in amazement.",
-        devstack: "MongoDB, Express, React, Node.js",
-        link: "#",
-        git: "#",
-        src: project1
+        title: "RecruitPro: Job Recruitment Management System with HR Analytics Dashboard",
+        desc: "Designed a machine learning model using Random Forest Classifier to predict job placements based on factors like academic performance, work experience, and specialization.Developed a Flask-based web application with interactive dashboards for real-time predictions and data-driven HR insights using visualizations like pie charts and bar plots.Streamlined recruitment processes by leveraging data pre-processing and machine learning to improve hiring efficiency, accuracy, and decision-making.",
+        devstack: "HTML, CSS, JavaScript, Python, Flask, Sci-kit learn, Pandas, Matplotlib",
+        link: "https://recruitpro.onrender.com",
+        git: "https://github.com/mayuresh2905/RecruitPro",
+        src: project3
 
     }
 ]

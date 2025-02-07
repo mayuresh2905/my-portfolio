@@ -1,13 +1,16 @@
-import { div } from 'framer-motion/client';
+import Image from 'next/image';
 import React from 'react';
-import { FaCss3Alt, FaHtml5, FaJsSquare, FaReact } from 'react-icons/fa';
+import webdev from "../assets/webdev_icon.png";
+import data from "../assets/Data_icon.png";
+import ml from "../assets/machine-learning.png";
+import testing from "../assets/software-testing.png";
 
 
 const skillIcons = [
-    {icon: <FaHtml5 size={140} />, label: "HTML"},
-    {icon: <FaCss3Alt size={140} />, label: "CSS"},
-    {icon: <FaReact size={110} />, label: "React"},
-    {icon: <FaJsSquare size={140} />, label: "JavaScript"},
+    {icon: <Image src={webdev} alt="Web Development" width={140} height={140}/>, label: "Web Development"},
+    {icon: <Image src={data} alt="Web Development" width={140} height={140}/>, label: "Data Analysis"},
+    {icon: <Image src={ml} alt="Web Development" width={140} height={140}/>, label: "Machine learning"},
+    {icon: <Image src={testing} alt="Web Development" width={140} height={140}/>, label: "Testing"},
 
 ]
 
